@@ -1,0 +1,74 @@
+<!--
+Demo Pentest Portfolio - single-file website for GitHub Pages
+
+
+How to use (quick):
+1. Create a GitHub account (if you don't have one).
+2. Create a new repository named: YOUR_USERNAME.github.io
+(replace YOUR_USERNAME with your GitHub username)
+3. In that repo, add a file named index.html with the content below (copy/paste).
+4. Commit & push to the main branch. GitHub Pages will serve https://YOUR_USERNAME.github.io
+
+
+Git commands (example):
+# create local repo and push
+git init
+git add index.html
+git commit -m "Initial portfolio"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_USERNAME.github.io.git
+git push -u origin main
+
+
+Notes:
+- Replace placeholder text (NAME, EMAIL, LINKS) with your real info.
+- Remove any confidential data from sample reports.
+- If you prefer a repo with a different name, enable Pages from Settings -> Pages -> Deploy from branch / root.
+
+
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>NAME — Penetration Tester</title>
+<meta name="description" content="Portfolio of NAME — Penetration Tester" />
+<style>
+/* Simple, modern, single-file styling. Edit freely. */
+:root{--bg:#0f1724;--card:#0b1220;--accent:#06b6d4;--muted:#94a3b8;--glass:rgba(255,255,255,0.03)}
+html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;color:#e6eef6;background:linear-gradient(180deg,#071126 0%,#061022 100%);}
+.container{max-width:980px;margin:36px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;box-shadow:0 8px 30px rgba(2,6,23,0.6)}
+header{display:flex;gap:18px;align-items:center}
+.avatar{width:90px;height:90px;border-radius:14px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:700;color:#021024;font-size:28px}
+h1{margin:0;font-size:24px}
+p.lead{margin:6px 0;color:var(--muted)}
+.grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:18px}
+.card{background:var(--card);padding:16px;border-radius:10px}
+.section-title{font-weight:700;margin-bottom:8px}
+ul.skills{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+ul.skills li{background:var(--glass);padding:6px 10px;border-radius:8px;font-size:13px;color:var(--muted)}
+a.cta{display:inline-block;padding:8px 12px;border-radius:8px;background:var(--accent);color:#021024;text-decoration:none;font-weight:700}
+.project{border-radius:8px;padding:10px;background:rgba(255,255,255,0.02);margin-bottom:12px}
+.muted{color:var(--muted)}
+footer{margin-top:18px;color:var(--muted);font-size:13px}
+pre.report{white-space:pre-wrap;background:#011627;padding:10px;border-radius:8px;color:#dbeafe;max-height:220px;overflow:auto}
+@media (max-width:900px){.grid{grid-template-columns:1fr;}.avatar{width:72px;height:72px}}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<div class="avatar">NA</div>
+<div>
+<h1>NAME — Penetration Tester</h1>
+<p class="lead">Specialist in web & network pentesting • OSINT • Bug bounties • Reporting</p>
+<div style="margin-top:8px">
+<a class="cta" href="#contact">Contact</a>
+<a class="cta" style="background:transparent;color:var(--accent);border:1px solid rgba(255,255,255,0.04);margin-left:8px" href="#projects">Projects</a>
+</div>
+</div>
+</header>
+
+
+</html>
